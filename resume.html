@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ganesh R | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.8s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .stagger-1 {
+      transition-delay: 0.1s;
+    }
+    .stagger-2 {
+      transition-delay: 0.4s;
+    }
+  </style>
+</head>
+<body style="background-color: #e9edc9; color: #264653;" class="font-sans leading-relaxed tracking-wide">
+
+  <!-- Header -->
+  <header style="background-color: #264653;" class="text-white py-10 shadow-md">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0">
+
+      <!-- Left: Name and Role -->
+      <div class="text-center md:text-left">
+        <h1 class="text-4xl font-bold fade-in stagger-1">Ganesh R</h1>
+        <p class="text-lg mt-1 text-[#e9c46a] font-medium fade-in stagger-2">Process Associate</p>
+      </div>
+
+      <!-- Right: Contact Info -->
+      <div class="text-sm text-[#f4a261] text-center md:text-right space-y-1">
+        <p>📍 <span class="text-white font-medium">Coimbatore, India</span></p>
+        <p>📞 <span class="text-white font-medium">+91 95141 04844</span></p>
+        <p>📧 <a href="mailto:ganeshrajendranbca@gmail.com" class="underline hover:text-white">ganeshrajendranbca@gmail.com</a></p>
+        <p>🔗 <a href="https://linkedin.com/in/ganesh-r1" class="underline hover:text-white">linkedin.com/in/ganesh-r1</a></p>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <div class="bg-white shadow-lg rounded-xl p-8 space-y-14">
+
+      <!-- Summary -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Summary</h2>
+        <p class="mt-4">
+          I am a process partner with more than 3.5 years of hands-on experience in data mapping, hotel information management, and back-end support in the hospitality domain.
+          My expertise lies in SQL-based data extraction and operations with PostgreSQL and MongoDB, ensuring high data consistency. I thrive on driving efficiency in database maintenance while adapting quickly to new technologies.
+        </p>
+      </section>
+
+      <!-- Experience -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Experience</h2>
+        <h3 class="font-semibold mt-4">Process Associate</h3>
+        <p class="text-sm text-gray-600">Aggregate Intelligence Pvt. Ltd., Coimbatore — Feb 2022 – Present</p>
+        <ul class="mt-2 list-disc list-inside space-y-1">
+          <li>Manage mapping processes for major OTA sources, including rate and review data classification for hotels across the globe.</li>
+          <li>Conduct end-to-end hotel property identification, source URL validation, and integration using MySQL/PostgreSQL.</li>
+          <li>Handle data normalization across hotel and source datasets, improving data reliability and quality.</li>
+          <li>Perform PostgreSQL installation and maintenance, including regular database backup, recovery, and performance tuning.</li>
+          <li>Deliver client-based solutions for property rates, customer reviews, room counts, and hotel type categorization.</li>
+          <li>Maintain dynamic reporting through complex SQL queries tailored to client needs.</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Projects</h2>
+        <h3 class="font-semibold mt-4">Hotel Rate and Review System</h3>
+        <p class="text-sm text-gray-600">Role: Data Delivery and Mapping</p>
+        <ul class="mt-2 list-disc list-inside space-y-1">
+          <li>Delivered real-time room rate and review integration for OTA and brand sources.</li>
+          <li>Using PostgreSQL and MongoDB to ensure consistent and clean ingestion of hotel data.</li>
+          <li>Supported the classification and normalization of hotel property types using deduplication logic.</li>
+        </ul>
+      </section>
+
+      <!-- Certifications -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Certifications</h2>
+        <ul class="mt-2 list-disc list-inside">
+          <li><strong>AWS (Basic):</strong> Basic AWS certification from KGISL</li>
+          <li><strong>MongoDB:</strong> Internal training certification</li>
+          <li><strong>PostgreSQL:</strong> Self-taught training (install, backup, tuning)</li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Skills</h2>
+        <ul class="mt-4 grid grid-cols-2 gap-4 list-disc list-inside">
+          <li><strong>Databases:</strong> PostgreSQL, MySQL, MSSQL, MongoDB</li>
+          <li><strong>Languages:</strong> SQL, Bash, Python (pandas)</li>
+          <li><strong>Web Tools:</strong> HTML, CSS, PHP</li>
+          <li><strong>Design:</strong> Photoshop, Illustrator, CorelDRAW</li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Education</h2>
+        <p><strong>BCA:</strong> Kongu Arts & Science College (2016–2019), Erode</p>
+        <p><strong>SSLC & HSC:</strong> Sri Vigneshwara Hr. Sec. School (2014 & 2016), Tiruppur</p>
+      </section>
+
+      <!-- Declaration -->
+      <section class="fade-in">
+        <h2 class="text-2xl font-bold pb-2 border-b-4" style="color: #2a9d8f; border-color: #e9c46a;">Declaration</h2>
+        <p class="mt-2">I hereby declare that the above information is true to the best of my knowledge and belief.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background-color: #e76f51;" class="text-white text-center text-sm py-6">
+    &copy; 2025 Ganesh R. All rights reserved.
+  </footer>
+
+  <!-- Animation Script -->
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
+
